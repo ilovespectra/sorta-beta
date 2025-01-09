@@ -22,7 +22,7 @@
 /src/app/pages/api/file_metadata.json
 /src/app/pages/api/Drive4Both-metadata.json
 
-# misc
+# miscz
 .DS_Store
 *.pem
 
