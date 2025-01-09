@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Home() {
   // const exampleCommand = `npx --max-old-space-size=4096 ts-node --esm sorta.ts /path/to/source /path/to/destination`;
-  const exampleCommandByName = `npx --max-old-space-size=4096 ts-node --esm sorta-by-name.ts /path/to/source /path/to/destination/screenshots`;
+  // const exampleCommandByName = `npx --max-old-space-size=4096 ts-node --esm sorta-by-name.ts /path/to/source /path/to/destination/screenshots`;
   // const exampleCreateMetaData = `npx ts-node --esm create-metadata.ts /path/to/source /path/to/this/github/repo/src/app/pages/api/file_metadata.json`;
   // const exampleSortaPics = `npx --max-old-space-size=4096 ts-node --esm sorta-pics.ts /path/to/source /path/to/destination`;
   const diskUtil = ` diskutil list`;
@@ -222,7 +222,7 @@ export default function Home() {
           </li>
         </ol>
 
-        <h2>1.2 Sorta by Name</h2>
+        {/* <h2>1.2 Sorta by Name</h2>
         <p>Additionally, you can use the `sorta-by-name.ts` script to organize by text present in file names (e.g., &apos;Screenshot&apos;).</p>
         <div
           style={{
@@ -251,7 +251,7 @@ export default function Home() {
           >
             Copy
           </button>
-        </div>
+        </div> */}
         
         {/* <h2>1.3 Sorta Pics</h2>
         <p>This script is for organizing just image files. Set your desired source and destination folder in the `sorta-pics.ts` script.</p>
